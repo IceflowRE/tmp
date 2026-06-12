@@ -11,6 +11,6 @@ jobs:
       contents: read
     steps:
       - name: Commit Check
-        uses: https://github.com/IceflowRE/gitcc@ed6d2012bcb675d61d2ad947646d1a8253c0810b
+        uses: https://github.com/IceflowRE/gitcc@751bf777693ddbd699daf29f0cf7bc3fd9dfaa28
         with:
           validator: "simpletag"
