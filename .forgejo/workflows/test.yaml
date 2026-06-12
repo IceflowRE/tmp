@@ -1,0 +1,13 @@
+name: Test
+on:
+  - push
+
+jobs:
+  commit-check:
+    name: Commit Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Commit Check
+        uses: https://github.com/IceflowRE/gitcc@3864a7e7deeaa476fd4d1aca6e9c203795f8003c
+        with:
+          validator: "simpletag"
