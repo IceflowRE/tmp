@@ -7,8 +7,6 @@ jobs:
   commit-check:
     name: Commit Check
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
     steps:
       - name: Commit Check
         uses: IceflowRE/gitcc@751bf777693ddbd699daf29f0cf7bc3fd9dfaa28
