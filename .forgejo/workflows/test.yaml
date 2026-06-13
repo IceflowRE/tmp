@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Commit Check
-        uses: https://github.com/IceflowRE/gitcc@751bf777693ddbd699daf29f0cf7bc3fd9dfaa28
+        uses: https://github.com/IceflowRE/gitcc@5dde692e3c253f81aaf6b3ba42016565d49c7791
         with:
           validator: "simpletag"
