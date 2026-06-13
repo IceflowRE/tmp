@@ -9,6 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Commit Check
-        uses: https://github.com/IceflowRE/gitcc@e5b22543970609a3d60a2c39c77b244fadf3ef3b
+        uses: https://github.com/IceflowRE/gitcc@v3.0.0
         with:
           validator: "simpletag"
+
+      - name: Commit Check
+        uses: IceflowRE/gitcc@v3.0.0
+        with:
+          validator_file: "test.mjs"
